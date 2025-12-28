@@ -28,13 +28,13 @@ on:
 
       upload_artifact:
         description: "Upload IPA as an Artifact (Public)"
-        default: true
+        default: false
         required: false
         type: boolean
 
       catbox_upload:
         description: "Upload IPA to Catbox.moe (URL)"
-        default: true
+        default: false
         required: false
         type: boolean
         
